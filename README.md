@@ -2,7 +2,7 @@
 
 A high-concurrency performance study on the memory overhead and CPU efficiency of different serialization formats in the V8 engine.
 
-## 📊 The Findings (at 1,000-op scale)
+## 📊 The Findings (at 50-op scale)
 
 | Metric | JSON (Template Literal) | Multipart (Detailed) | Delta |
 | :--- | :--- | :--- | :--- |
@@ -17,5 +17,4 @@ A high-concurrency performance study on the memory overhead and CPU efficiency o
 
 ## 🛠️ How to Run
 1. Clone the repo.
-2. Run `npm install`.
-3. Run `node index.js`.
+2. Run `node index.js`.
